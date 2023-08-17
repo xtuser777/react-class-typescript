@@ -1,0 +1,569 @@
+/* ========== Text Styles ========== */
+hr { color: #000000}
+.main-content, .main-content table span.rvts0 /* Normal text */
+{
+ font-size: 10pt;
+ font-family: 'Arial', 'Helvetica', sans-serif;
+ font-style: normal;
+ font-weight: normal;
+ color: #000000;
+ text-decoration: none;
+}
+span.rvts1 /* Heading */
+{
+ font-weight: bold;
+ color: #0000ff;
+}
+span.rvts2 /* Subheading */
+{
+ font-weight: bold;
+ color: #000080;
+}
+span.rvts3 /* Keywords */
+{
+ font-style: italic;
+ color: #800000;
+}
+a.rvts4, span.rvts4 /* Jump 1 */
+{
+ color: #008000;
+ text-decoration: underline;
+}
+a.rvts5, span.rvts5 /* Jump 2 */
+{
+ color: #008000;
+ text-decoration: underline;
+}
+span.rvts6
+{
+}
+span.rvts7
+{
+ font-size: 20pt;
+ font-weight: bold;
+ color: #c00000;
+}
+span.rvts8
+{
+ font-weight: bold;
+ color: #c00000;
+}
+span.rvts9
+{
+ font-size: 14pt;
+ font-weight: bold;
+}
+span.rvts10
+{
+ font-size: 14pt;
+ font-family: 'Calibri';
+ font-weight: bold;
+}
+a.rvts11, span.rvts11
+{
+ font-size: 14pt;
+ font-family: 'Calibri';
+ font-weight: bold;
+ color: #0000ff;
+ text-decoration: underline;
+}
+a.rvts11:hover { color: #0000ff; }
+span.rvts12
+{
+ font-size: 23pt;
+ font-family: 'Calibri';
+ font-weight: bold;
+ color: #c00000;
+}
+span.rvts13
+{
+ font-size: 12pt;
+ font-family: 'Calibri';
+ font-style: italic;
+ font-weight: bold;
+}
+span.rvts14
+{
+ font-size: 11pt;
+ font-family: 'Calibri';
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts15
+{
+ font-size: 12pt;
+ font-family: 'Calibri';
+ font-style: italic;
+}
+a.rvts16, span.rvts16
+{
+ font-size: 14pt;
+ font-family: 'Calibri';
+ font-weight: bold;
+ color: #0000ff;
+ text-decoration: underline;
+}
+a.rvts16:hover { color: #0000ff; }
+span.rvts17 /* Font Style */
+{
+ font-family: 'Tahoma', 'Geneva', sans-serif;
+ font-style: italic;
+ color: #c0c0c0;
+}
+a.rvts18, span.rvts18 /* Font Style */
+{
+ font-family: 'Tahoma', 'Geneva', sans-serif;
+ font-style: italic;
+ color: #6666ff;
+ text-decoration: underline;
+}
+span.rvts19
+{
+ font-size: 18pt;
+ font-weight: bold;
+ color: #0000ff;
+}
+span.rvts20
+{
+ font-size: 12pt;
+ font-family: 'Times New Roman', 'Times', serif;
+ font-weight: bold;
+}
+span.rvts21
+{
+ font-size: 14pt;
+ font-family: 'Calibri';
+}
+span.rvts22
+{
+ font-size: 14pt;
+ font-family: 'Calibri';
+ font-style: italic;
+ font-weight: bold;
+}
+a.rvts23, span.rvts23
+{
+ font-family: 'Calibri';
+ font-weight: bold;
+ text-decoration: none;
+}
+a.rvts24, span.rvts24
+{
+ font-size: 14pt;
+ font-family: 'Calibri';
+ font-weight: bold;
+ color: #0000ff;
+ text-decoration: underline;
+}
+span.rvts25
+{
+ font-size: 12pt;
+ font-weight: bold;
+}
+span.rvts26
+{
+ font-size: 12pt;
+}
+span.rvts27
+{
+ font-size: 12pt;
+ font-family: 'Times New Roman', 'Times', serif;
+}
+span.rvts28
+{
+ font-size: 11pt;
+ font-style: italic;
+ color: #1f497d;
+}
+span.rvts29
+{
+}
+span.rvts30
+{
+ font-size: 14pt;
+ font-family: 'Calibri';
+ font-weight: bold;
+}
+span.rvts31
+{
+ font-size: 14pt;
+ font-family: 'Calibri';
+}
+span.rvts32
+{
+ font-size: 20pt;
+ font-family: 'Calibri';
+ font-weight: bold;
+ color: #0000ff;
+}
+span.rvts33
+{
+ font-size: 12pt;
+ font-family: 'Calibri';
+ font-style: italic;
+}
+span.rvts34
+{
+ font-size: 12pt;
+ font-family: 'Calibri';
+}
+span.rvts35
+{
+ font-size: 14pt;
+ font-family: 'Calibri';
+ color: #000000;
+}
+span.rvts36
+{
+ font-size: 14pt;
+ font-family: 'Calibri';
+ font-style: italic;
+ color: #1f497d;
+}
+span.rvts37
+{
+ font-size: 12pt;
+ font-family: 'Calibri';
+ font-weight: bold;
+}
+span.rvts38
+{
+ font-size: 12pt;
+ font-family: 'Calibri';
+ font-weight: bold;
+}
+span.rvts39
+{
+ font-size: 11pt;
+ font-weight: bold;
+}
+span.rvts40
+{
+ font-size: 8pt;
+}
+span.rvts41
+{
+ font-size: 12pt;
+}
+span.rvts42
+{
+ font-size: 14pt;
+ font-family: 'Calibri';
+ font-style: italic;
+}
+span.rvts43
+{
+ font-size: 20pt;
+ font-family: 'Calibri';
+ font-weight: bold;
+ color: #0000ff;
+}
+span.rvts44
+{
+ font-size: 16pt;
+ font-family: 'Calibri';
+ font-weight: bold;
+ color: #3333ff;
+}
+span.rvts45
+{
+ font-size: 14pt;
+ font-family: 'Times New Roman', 'Times', serif;
+}
+span.rvts46
+{
+ font-size: 14pt;
+}
+span.rvts47
+{
+ font-size: 12pt;
+ font-family: 'Calibri';
+ font-style: italic;
+ color: #ff0000;
+}
+span.rvts48
+{
+ font-size: 11pt;
+ font-style: italic;
+ font-weight: bold;
+}
+span.rvts49
+{
+ font-size: 12pt;
+ color: #0070c0;
+ text-decoration: underline;
+}
+span.rvts50
+{
+ font-size: 20pt;
+ font-family: 'Calibri';
+ font-weight: bold;
+ color: #000080;
+}
+span.rvts51
+{
+ font-size: 12pt;
+ color: #0000ff;
+ text-decoration: underline;
+}
+a.rvts52, span.rvts52
+{
+ font-size: 12pt;
+ color: #0000ff;
+ text-decoration: underline;
+}
+a.rvts52:hover { color: #0000ff; }
+span.rvts53
+{
+ font-family: 'Verdana', 'Geneva', sans-serif;
+}
+span.rvts54
+{
+ font-style: italic;
+}
+span.rvts55
+{
+ font-size: 12pt;
+ font-family: 'Calibri';
+ color: #000000;
+}
+/* ========== Para Styles ========== */
+p,ul,ol /* Paragraph Style */
+{
+ text-align: left;
+ text-indent: 0px;
+ padding: 0px 0px 0px 0px;
+ margin: 0px 0px 0px 0px;
+}
+.rvps1 /* Centered */
+{
+ text-align: center;
+}
+.rvps2
+{
+}
+.rvps3
+{
+ text-align: center;
+ text-indent: 10px;
+ margin: 0px 10px 0px 10px;
+}
+.rvps4
+{
+ text-align: right;
+ text-indent: 10px;
+ margin: 0px 10px 0px 10px;
+}
+.rvps5
+{
+ text-indent: 10px;
+ margin: 0px 10px 0px 10px;
+}
+.rvps6
+{
+ text-align: center;
+ text-indent: 10px;
+ line-height: 1.50;
+ margin: 0px 10px 0px 10px;
+}
+.rvps7 /* Paragraph Style */
+{
+ text-align: center;
+ border-color: #c0c0c0;
+ border-style: solid;
+ border-width: 1px;
+ border-right: none;
+ border-left: none;
+ padding: 2px 0px 2px 0px;
+ margin: 7px 0px 7px 0px;
+}
+.rvps8
+{
+ text-align: center;
+}
+.rvps9
+{
+ line-height: 1.50;
+}
+.rvps10
+{
+ text-indent: 48px;
+ line-height: 1.50;
+ margin: 0px 0px 0px 192px;
+}
+.rvps11
+{
+ text-align: right;
+}
+.rvps12
+{
+ text-indent: -16px;
+ line-height: 1.50;
+ margin: 0px 0px 0px 16px;
+}
+.rvps13
+{
+ text-align: center;
+ text-indent: -16px;
+ line-height: 1.50;
+ margin: 0px 0px 0px 16px;
+}
+.rvps14
+{
+ text-align: center;
+ line-height: 1.50;
+ margin: 0px 0px 0px 16px;
+}
+.rvps15
+{
+ text-align: center;
+}
+.rvps16
+{
+ text-align: center;
+ line-height: 1.50;
+}
+.rvps17
+{
+ text-align: left;
+ text-indent: -48px;
+ page-break-after: avoid;
+ padding: 0px 0px 0px 0px;
+ margin: 0px 0px 0px 48px;
+}
+.rvps18
+{
+}
+.rvps19
+{
+ text-align: center;
+ line-height: 1.50;
+}
+.rvps20
+{
+ text-align: left;
+ text-indent: -48px;
+ page-break-after: avoid;
+ padding: 0px 0px 0px 0px;
+ margin: 0px 0px 0px 96px;
+}
+.rvps21
+{
+ text-align: center;
+ margin: 7px 0px 7px 0px;
+}
+.rvps22
+{
+ text-align: center;
+ text-indent: -48px;
+ page-break-after: avoid;
+ padding: 0px 0px 0px 0px;
+ margin: 0px 0px 0px 96px;
+}
+.rvps23
+{
+ text-align: center;
+}
+.rvps24
+{
+ text-align: center;
+}
+.rvps25
+{
+ text-indent: 48px;
+ margin: 0px 0px 0px 48px;
+}
+.rvps26
+{
+ text-indent: 48px;
+}
+.rvps27
+{
+ text-indent: 48px;
+ line-height: 1.50;
+ margin: 0px 0px 0px 48px;
+}
+.rvps28
+{
+ text-align: left;
+ text-indent: -38px;
+ page-break-after: avoid;
+ padding: 0px 0px 0px 0px;
+ margin: 0px 0px 0px 38px;
+}
+.rvps29
+{
+ text-align: center;
+ text-indent: -38px;
+ page-break-after: avoid;
+ padding: 0px 0px 0px 0px;
+ margin: 0px 0px 0px 38px;
+}
+.rvps30
+{
+ text-indent: 31px;
+ margin: 0px 0px 0px 39px;
+}
+.rvps31
+{
+ text-align: justify;
+ text-justify: inter-word;
+ text-align-last: auto;
+ text-indent: 47px;
+ line-height: 1.50;
+ margin: 0px 0px 0px 26px;
+}
+.rvps32
+{
+ text-align: center;
+ text-indent: -29px;
+ line-height: 1.50;
+ page-break-after: avoid;
+ padding: 0px 0px 0px 0px;
+ margin: 0px 0px 0px 29px;
+}
+.rvps33
+{
+ text-align: center;
+ text-indent: 47px;
+ line-height: 1.50;
+ margin: 0px 0px 0px 26px;
+}
+.rvps34
+{
+ text-align: center;
+ line-height: 2.00;
+}
+.rvps35
+{
+ margin: 7px 0px 7px 0px;
+}
+.rvps36
+{
+ text-align: center;
+}
+.rvps37
+{
+ text-indent: 48px;
+ line-height: 1.50;
+}
+.rvps38
+{
+ text-indent: 48px;
+ line-height: 1.50;
+ margin: 0px 0px 0px 96px;
+}
+.rvps39
+{
+ text-indent: 48px;
+ line-height: 1.50;
+ margin: 0px 0px 0px 144px;
+}
+.rvps40
+{
+ text-indent: 48px;
+ margin: 7px 0px 7px 96px;
+}
+/* ========== Lists ========== */
+.list0 {text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: decimal;}
+.list1 {text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: decimal;}
