@@ -4,8 +4,6 @@ import { FieldsetCard } from '../../components/fieldset-card';
 import { FormContact } from '../../components/form-contact';
 import { FormIndividualPerson } from '../../components/form-individual-person';
 import { FormAuthenticationData } from '../../components/form-authentication-data';
-import { connect } from 'react-redux';
-import { RootState } from '../../store';
 import { Employee as EmployeeModel } from '../../models/Employee';
 import { AuthState } from '../../store/modules/auth/reducer';
 import { FormButtonsSave } from '../../components/form-buttons-save';
@@ -19,7 +17,7 @@ interface UserState {
   type: number;
 }
 
-class User extends Component<UserProps, UserState> {
+export class User extends Component<UserProps, UserState> {
   private fetchedData: boolean;
   private personRef: React.RefObject<FormIndividualPerson>;
   private contactRef: React.RefObject<FormContact>;
@@ -78,7 +76,7 @@ class User extends Component<UserProps, UserState> {
     const { employee } = this.state;
 
     const personFields = {
-      modelPerson: employee.person.individual,
+      modelPerson: employee.person,
       ref: this.personRef,
     };
 
@@ -120,8 +118,8 @@ class User extends Component<UserProps, UserState> {
   }
 }
 
-const mapStateToProps = (state: RootState) => ({
-  authState: state.auth,
-});
+// const mapStateToProps = (state: RootState) => ({
+//   authState: state.auth,
+// });
 
-export default connect(mapStateToProps)(User);
+// export default connect(mapStateToProps)(User);

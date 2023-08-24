@@ -3,7 +3,6 @@ import { Navigate, useParams } from 'react-router-dom';
 import { RootState } from '../../store';
 import { Home } from '../../pages/Home';
 import { Parameterization } from '../../pages/Parameterization';
-import User from '../../pages/User';
 import { Employees } from '../../pages/Employees';
 import Employee from '../../pages/Employee';
 import { Clients } from '../../pages/Clients';
@@ -50,6 +49,7 @@ import { BillsPayReport } from '../../pages/BillsPayReport';
 import { ReceiveBillsReport } from '../../pages/ReceiveBillsReport';
 import { ProductsReport } from '../../pages/ProductsReport';
 import { SalesBudget } from '../../pages/SalesBudget';
+import { User } from '../../pages/User';
 
 export const Protected = (props: { component: string }) => {
   const isloggedIn = useSelector((state: RootState) => state.auth.isLoggedIn);
@@ -66,7 +66,7 @@ export const Protected = (props: { component: string }) => {
     case 'Parameterization':
       return <Parameterization />;
     case 'User':
-      return <User />;
+      return <User authState={useSelector((state: RootState) => state.auth)} />;
     case 'Employees':
       return <Employees />;
     case 'Employee':
