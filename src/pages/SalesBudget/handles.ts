@@ -1,16 +1,16 @@
 import { ChangeEvent } from 'react';
 import { ISaleItem } from '../../models/SaleItem';
 import { formatarPeso, formatarValor } from '../../utils/format';
-import { SalesBudgetComponent } from './component';
+import { SalesBudget } from '.';
 import { SalesBudgetFunctions } from './functions';
 import { Client } from '../../models/Client';
 import { Employee } from '../../models/Employee';
 
 export class SalesBudgetHandles {
-  private component: SalesBudgetComponent;
+  private component: SalesBudget;
   private functions: SalesBudgetFunctions;
 
-  constructor(component: SalesBudgetComponent, functions: SalesBudgetFunctions) {
+  constructor(component: SalesBudget, functions: SalesBudgetFunctions) {
     this.component = component;
     this.functions = functions;
   }

@@ -599,15 +599,6 @@ export function SalesOrder(): JSX.Element {
     }
   };
 
-  const handleButtons = {
-    handleClearClick: () => {
-      clearFields();
-    },
-    handleSaveClick: async () => {
-      await persistData();
-    },
-  };
-
   // Items
   const [items, setItems] = useState(new Array<ISaleItem>());
   const [itemRepresentation, setItemRepresentation] = useState('0');
@@ -1264,8 +1255,10 @@ export function SalesOrder(): JSX.Element {
       </FieldsetCard>
       <FormButtonsSave
         backLink="/pedidos/venda"
-        clear={method == 'abrir'}
-        handle={handleButtons}
+        clear
+        save
+        clearFields={clearFields}
+        persistData={persistData}
       />
     </>
   );

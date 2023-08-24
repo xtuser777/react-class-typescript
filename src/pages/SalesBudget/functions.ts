@@ -7,12 +7,12 @@ import { ISaleItem } from '../../models/SaleItem';
 import { IState } from '../../models/State';
 import axios from '../../services/axios';
 import { formatarPeso, formatarValor, formatarDataIso } from '../../utils/format';
-import { SalesBudgetComponent } from './component';
+import { SalesBudget } from '.';
 
 export class SalesBudgetFunctions {
-  private component: SalesBudgetComponent;
+  private component: SalesBudget;
 
-  constructor(component: SalesBudgetComponent) {
+  constructor(component: SalesBudget) {
     this.component = component;
   }
 
@@ -142,7 +142,7 @@ export class SalesBudgetFunctions {
       price: '',
       dueDate: '',
     });
-    this.component.itemsRef.current?.clearItemFields();
+    this.component.itemsRef.current?.functions.clearItemFields();
   };
 
   persistData = async () => {

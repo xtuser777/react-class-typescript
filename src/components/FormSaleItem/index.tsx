@@ -9,7 +9,7 @@ import { FormSaleItemFunctions } from './functions';
 import { FormSaleItemHandles } from './handles';
 
 export class FormSaleItem extends Component<IFormSaleItemProps, IFormSaleItemState> {
-  private functions: FormSaleItemFunctions;
+  public functions: FormSaleItemFunctions;
   private handles: FormSaleItemHandles;
 
   constructor(props: IFormSaleItemProps) {
